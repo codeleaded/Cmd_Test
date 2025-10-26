@@ -1,9 +1,9 @@
 # === Makefile.linux ===
 
 CC = gcc
-CFLAGS = -O2 -mavx2 -std=gnu17
+CFLAGS = -O2 -Wall -mavx2 -std=gnu17
 INCLUDES = -Isrc
-LDFLAGS = -lm
+LDFLAGS = -lm -lX11 -lpng -lasound -ljpeg -lGL -lGLEW -lbluetooth
 SRC_DIR = src
 BUILD_DIR = build
 TARGET = $(BUILD_DIR)/Main
