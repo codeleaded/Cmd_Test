@@ -190,8 +190,14 @@
 //     return (struct { int x; int y; }){ a, b };
 // }
 
+#warning "Dies ist eine Test-Warnung zum Anzeigen in VS Code"
+
 int main(int argc,char** argv){
+	int x = 42;
+	double d = 3.14;
+    int i = d;
 	
+
 	//Files_Walk("/home/codeleaded/System/Static/Container",Walk);
 
 	// C23
