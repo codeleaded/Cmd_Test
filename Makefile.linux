@@ -3,7 +3,7 @@
 CC = gcc
 CFLAGS = -O0 -Wall -mavx2 -std=gnu17
 INCLUDES = -Isrc
-LDFLAGS = -lm -lX11 -lpng -lasound -ljpeg -lGL -lGLEW -lbluetooth
+LDFLAGS = -lm -lX11 -lpng -ljpeg -lasound -ljpeg -lGL -lGLEW -lbluetooth
 SRC_DIR = src
 BUILD_DIR = build
 TARGET = $(BUILD_DIR)/Main
