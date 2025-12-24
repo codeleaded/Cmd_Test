@@ -85,7 +85,7 @@
 #include "/home/codeleaded/System/Static/Library/Triangle.h"
 #include "/home/codeleaded/System/Static/Library/Random.h"
 #include "/home/codeleaded/System/Static/Library/Rect.h"
-#include "/home/codeleaded/System/Static/Library/AlxEnviroment.h"
+#include "/home/codeleaded/System/Static/Library/AlxEnvironment.h"
 #include "/home/codeleaded/System/Static/Library/ObjectNotationProto.h"
 #include "/home/codeleaded/System/Static/Library/AlxCallStack.h"
 #include "/home/codeleaded/System/Static/Library/Periodic.h"
